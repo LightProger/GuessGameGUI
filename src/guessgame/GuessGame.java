@@ -114,9 +114,7 @@ public class GuessGame extends JFrame implements ActionListener {
                         textLabel.setText(null);
                         number = (int) (Math.random() * 10);
                     } else if (result == JOptionPane.NO_OPTION) {
-                        textField.setText(null);
-                        textLabel.setText(null);
-                        number = 0;
+                        System.exit(0);
                     }
                 }
                 break;
